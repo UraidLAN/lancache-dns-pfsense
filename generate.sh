@@ -28,7 +28,7 @@ fi
 
 # Get domains from `uklans/cache-domains` GitHub repo
 rm -rf /var/git/lancache-cache-domains
-/usr/bin/git clone https://github.com/uklans/cache-domains.git /var/git/lancache-cache-domains
+/usr/bin/git clone https://github.com/uraidlan/cache-domains.git /var/git/lancache-cache-domains
 
 # Set the upstreams we want to create unbound config files from
 declare -a UPSTREAMS=("blizzard" "origin" "riot" "steam" "windowsupdates")
